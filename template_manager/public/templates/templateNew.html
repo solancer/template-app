@@ -1,0 +1,47 @@
+
+<div class="col-md-8 full-height">
+	<!-- <div class="page-header"></div> -->
+<div>
+	<form role="form" ng-submit="processForm()">
+	  <div class="form-group col-md-12">
+	    <label for="InputSummary">Summary Name</label>
+	    <input type="text" class="form-control" ng-model="formData.summary" id="InputSummary" placeholder="Enter Summary Name">
+	  </div>
+	  <div class="form-group col-md-4">
+	    <label for="InputCgroup">Created Group</label>
+	    <input type="text" class="form-control" ng-model="formData.cGroup" id="InputCgroup" placeholder="Created Group">
+	  </div>
+	  <div class="form-group col-md-4">
+	    <label for="InputOgroup">Owner Group</label>
+	    <input type="text" class="form-control" ng-model="formData.oGroup" id="InputOgroup" placeholder="Owner Group">
+	  </div>
+	  <div class="form-group col-md-4">
+	    <label for="InputClassification">Classification</label>
+	    <input type="text" class="form-control" ng-model="formData.classification" id="InputClassification" placeholder="Classification">
+	  </div>
+	  <div class="form-group col-md-12">
+	    <label for="InputDetails">Details</label>
+	    <textarea type="text" wrap="off" rows="10" class="form-control" ng-model="formData.details" id="InputDetails" placeholder="Details"></textarea>
+	  </div>
+	  <div class="form-group col-md-4 col-sm-4">
+		<label for="InputPriority">Reported Priority</label>
+	    <input type="number" class="form-control" ng-model="formData.rPriority" id="InputRpriority" placeholder="Details"></input>
+	    <label for="InputPriority">Internal Priority</label>
+	    <input type="number" class="form-control" ng-model="formData.iPriority" id="InputIpriority" placeholder="Details"></input>
+	    <label for="InputPriority">Urgency Priority</label>
+	    <input type="number" class="form-control" ng-model="formData.uPriority" id="InputUpriority" placeholder="Details"></input>
+	  </div>
+	  <div class="form-group col-md-8 col-sm-4">
+		<label for="InputNotes">Notes</label>
+	    <textarea wrap="off" rows="8" type="text" class="form-control" ng-model="formData.notes" id="InputNotes" placeholder="Notes"></textarea>
+	  </div>
+	  <div class="form-group col-md-3">
+	  		<button class="btn btn-block btn-success" type="submit">Save</button>
+	  </div>
+	  <div class="form-group col-md-3">
+	  		<button class="btn btn-block btn-success">Cancel</button>
+	  </div>
+	</form>
+</div>
+
+</div>

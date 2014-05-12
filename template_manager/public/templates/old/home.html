@@ -1,0 +1,22 @@
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4" ng-controller="TemplateListing">
+          <div id="sidebar" class="scrollable">
+            <ul class="list-group templateListing">
+              <a href="#/view/{{temp.id}}" class="list-group-item" 
+                         ng-repeat="temp in template|filter:temps" 
+                         ng-class="{ 'active': temp.id == activeClass }"
+                         ng-click="itemClicked(temp.id);setSelectedTemplate(temp)">
+                <div>
+                  <div>{{temp.summary}}</div>
+                </div>
+              </a>
+            </ul>
+            </div>
+         </div>
+       
+        <ui-view></ui-view>
+
+
+      </div>
+    </div> <!-- container ends -->

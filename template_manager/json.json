@@ -1,0 +1,67 @@
+[{
+		id: 1,
+		summary: 'Maximo password reset',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	},{
+		id: 2,
+		summary: 'Pin reset',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	},{
+		id: 3,
+		summary: 'Domain id locked',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	},{
+		id: 4,
+		summary: 'GUI password reset',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	},{
+		id: 5,
+		summary: 'Miltop printer not printing',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	},{
+		id: 6,
+		summary: 'MC9094 stuck on white screen',
+		details: 'EU called in saying bla bla bla  bla bla bla bla bla bla',
+		cgroup: 'ABCR-HDXFR',
+		ogroup: 'ABCR-HDXFR',
+		classification: '6516651651',
+		notes: 'some extra stuff',
+		reprio: '3',
+		inrprio: '3',
+		urprio: '3'
+	}]

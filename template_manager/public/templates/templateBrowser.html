@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="sidebar" class="scrollable">
+        <ul class="list-group templateListing">
+          <a class="btn btn-block btn-success" ui-sref=".new">New Template</a>
+          <hr class="s-hr">
+          <a class="list-group-item" 
+                     ng-repeat="temp in templates|filter:temps" 
+                     ui-sref-active="active"
+                     ui-sref=".detail({templateId : temp._id})">
+            <div>
+              <div>{{temp.summary}}</div>
+            </div>
+          </a>
+        </ul>
+        </div>
+     </div>
+   
+    <ui-view autoscroll='false'></ui-view>
+
+
+  </div>
+</div> <!-- container ends -->

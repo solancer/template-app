@@ -1,0 +1,73 @@
+
+<div class="col-md-8 overflow-hidden">
+
+<div ng-show="template">
+  <div class="pull-right"><a class="btn btn-embossed btn-success btn-wide" ui-sref="^.edit({templateId : template.id})">Edit</a></div>
+
+  <h3 class="page-header">{{template.summary}}</h3>
+
+  <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Created Group</div>
+          <div class="panel-body s-pbody">
+            {{template.cgroup}} 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Owner Group</div>
+          <div class="panel-body s-pbody">
+            {{template.ogroup}}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Classification</div>
+          <div class="panel-body s-pbody">
+            {{template.classification}}
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Details</div>
+           <div class="panel-body">
+              {{template.details}}
+           </div> 
+        </div>
+      </div>  
+    
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Priorities</div>
+          <div class="panel-body s-pbody">
+            Reported Priority
+            {{template.reprio}}
+            <hr class="s-hr"></hr>
+            Internal Priority
+            {{template.inrprio}}
+            <hr class="s-hr"></hr>
+            Urgency Priority
+            {{template.urprio}}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading f-pheading">Notes</div>
+           <div class="panel-body">
+              {{template.notes}}
+           </div> 
+        </div>
+      </div>  
+
+  </div>
+    
+</div>
+
+</div>

@@ -1,0 +1,76 @@
+        <div class="col-md-8 overflow-hidden" ng-controller="TemplateContent">
+
+            <div class="noShow" ng-show="!selectedTemp">
+              <h3>No template selected</h3>
+            </div>
+
+            <div ng-show="selectedTemp">
+              <div class="pull-right"><a class="btn btn-embossed btn-primary btn-wide" href="#/edit">Editx</a></div>
+
+              <h3 class="page-header">{{selectedTemp.summary}}</h3>
+
+              <div class="row">
+                  <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Created Group</div>
+                      <div class="panel-body s-pbody">
+                        {{selectedTemp.cgroup}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Owner Group</div>
+                      <div class="panel-body s-pbody">
+                        {{selectedTemp.ogroup}}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Classification</div>
+                      <div class="panel-body s-pbody">
+                        {{selectedTemp.classification}}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Details</div>
+                       <div class="panel-body">
+                          {{selectedTemp.details}}
+                       </div> 
+                    </div>
+                  </div>  
+                
+                  <div class="col-md-4">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Priorities</div>
+                      <div class="panel-body s-pbody">
+                        Reported Priority
+                        {{selectedTemp.reprio}}
+                        <hr class="s-hr"></hr>
+                        Internal Priority
+                        {{selectedTemp.inrprio}}
+                        <hr class="s-hr"></hr>
+                        Urgency Priority
+                        {{selectedTemp.urprio}}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-8">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading f-pheading">Notes</div>
+                       <div class="panel-body">
+                          {{selectedTemp.notes}}
+                       </div> 
+                    </div>
+                  </div>  
+
+              </div>
+                
+            </div>
+  
+          </div>
